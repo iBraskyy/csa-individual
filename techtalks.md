@@ -10,13 +10,10 @@ All my notes for CSA tech talks
 
 **Imperative Paradigm:**
 
-In computer science, imperative programming is a programming paradigm that uses statements that change a program's state. An imperative program consists of commands for the computer to perform to achieve a result. Imperative programming focuses on describing "how" a program code works.
+Data Structures is a method of storing data for code: class, list, CRUD database, etc. 
+- can implement o notation into data structure
 
 **Object Oriented Paradigm:**
-
-Object Oriented programming (OOP) is a programming paradigm that relies on the concept of classes and objects. It is used to structure a software program into simple, reusable pieces of code blueprints (usually called classes), which are used to create individual instances of objects.
-
-#### Data structures
 
 **Arrays and lists**
 
