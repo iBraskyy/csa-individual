@@ -1,19 +1,61 @@
 package tt2;
 
+
+
+
 import java.util.ArrayList;
+
+
+
+
+
+
 import java.util.HashMap;
+
+
+
+
+
+
 import java.util.Map;
+
+
+
+
+
+
+
 
 import tt2.Stack;
 
 
+
+
+
+
 import java.util.*;
 
-public class Calculator {
+
+
+
+
+
+
+
+
+
+public class CaluclatorSamFather {
     // Key instance variables
+    
+    
+    
     private final String expression;
+    
     private ArrayList<String> tokens;
+    
+    
     private ArrayList<String> reverse_polish;
+    
     private Double result = 0.0;
 
     // Helper definition for supported operators
@@ -39,7 +81,7 @@ public class Calculator {
     }
 
     // Create a 1 argument constructor expecting a mathematical expression
-    public Calculator(String expression) {
+    public CaluclatorSamFather(String expression) {
         // original input
         this.expression = expression;
 
@@ -223,52 +265,52 @@ public class Calculator {
     // Tester method
     public static void main(String[] args) {
         // Random set of test cases
-        Calculator simpleMath = new Calculator("100 + 200  * 3");
+        CaluclatorSamFather simpleMath = new CaluclatorSamFather("100 + 200  * 3");
         System.out.println("Simple Math\n" + simpleMath);
 
         System.out.println();
 
-        Calculator parenthesisMath = new Calculator("(100 + 200)  * 3");
+        CaluclatorSamFather parenthesisMath = new CaluclatorSamFather("(100 + 200)  * 3");
         System.out.println("Parenthesis Math\n" + parenthesisMath);
 
         System.out.println();
 
-        Calculator fractionMath = new Calculator("100.2 - 99.3");
+        CaluclatorSamFather fractionMath = new CaluclatorSamFather("100.2 - 99.3");
         System.out.println("Fraction Math\n" + fractionMath);
 
         System.out.println();
 
-        Calculator moduloMath = new Calculator("300 % 200");
+        CaluclatorSamFather moduloMath = new CaluclatorSamFather("300 % 200");
         System.out.println("Modulo Math\n" + moduloMath);
 
         System.out.println();
 
-        Calculator divisionMath = new Calculator("300/200");
+        CaluclatorSamFather divisionMath = new CaluclatorSamFather("300/200");
         System.out.println("Division Math\n" + divisionMath);
 
         System.out.println();
 
-        Calculator multiplicationMath = new Calculator("300 * 200");
+        CaluclatorSamFather multiplicationMath = new CaluclatorSamFather("300 * 200");
         System.out.println("Multiplication Math\n" + multiplicationMath);
 
         System.out.println();
 
-        Calculator allMath = new Calculator("200 % 300 + 5 + 300 / 200 + 1 * 100");
+        CaluclatorSamFather allMath = new CaluclatorSamFather("200 % 300 + 5 + 300 / 200 + 1 * 100");
         System.out.println("All Math\n" + allMath);
 
         System.out.println();
 
-        Calculator allMath2 = new Calculator("200 % (300 + 5 + 300) / 200 + 1 * 100");
+        CaluclatorSamFather allMath2 = new CaluclatorSamFather("200 % (300 + 5 + 300) / 200 + 1 * 100");
         System.out.println("All Math2\n" + allMath2);
 
         System.out.println();
 
-        Calculator allMath3 = new Calculator("200%(300+5+300)/200+1*100");
+        CaluclatorSamFather allMath3 = new CaluclatorSamFather("200%(300+5+300)/200+1*100");
         System.out.println("All Math3\n" + allMath3);
 
         System.out.println();
 
-        Calculator expMath = new Calculator("8 ^ 4");
+        CaluclatorSamFather expMath = new CaluclatorSamFather("8 ^ 4");
         System.out.println("Exponential Math\n" + expMath);
 
         System.out.println();
@@ -279,12 +321,12 @@ public class Calculator {
         System.out.println("What equation would you like to calculate?");
 
         userInput = input.next();
-        Calculator test = new Calculator(userInput);
+        CaluclatorSamFather test = new CaluclatorSamFather(userInput);
         System.out.print("Result:\n" + test);
 
 
         /** working on bug
-        Calculator sqrtMath = new Calculator("sqrt9");
+        CaluclatorSamFather sqrtMath = new CaluclatorSamFather("sqrt9");
         System.out.println("Square Root Math\n" + sqrtMath);
         System.out.println();*/
     }
