@@ -14,6 +14,26 @@
 Linked Lists are a type of data structure in which each piece of data contains a reference link to the next piece of data, meaning that the next node can be referenced through the cucrent node
 In our code, generic T was used because we did not know which data types would be inputed into the queue, and so it allows us to use the data without specifically defining a data type
    We used stacks in order to implement Reverse Polish Notation to create the calculator object.
+   
+   <img width="1440" alt="Screen Shot 2022-03-29 at 9 59 10 AM" src="https://user-images.githubusercontent.com/72888867/160665830-2b6eda60-783b-43a1-b5d1-8ed2eeff98ff.png">
+   
+   
+   Here you can see that I am creating the argument constructor which will be expecting a mathematical expression
+   
+
+
+<img width="1440" alt="Screen Shot 2022-03-29 at 9 59 25 AM" src="https://user-images.githubusercontent.com/72888867/160665866-ca725240-0395-43d1-92d4-50d8a1793fb6.png">
+
+
+Below you can see how the function takes tokens and converts it to reverse polish notation, where an operator follows operands 
+
+
+<img width="1440" alt="Screen Shot 2022-03-29 at 10 00 10 AM" src="https://user-images.githubusercontent.com/72888867/160666002-3ed21c7a-6272-4761-a91d-7786a694cc07.png">
+
+
+The code below takes reverse polish notation and produces our desired result from it 
+
+<img width="1440" alt="Screen Shot 2022-03-29 at 10 01 08 AM" src="https://user-images.githubusercontent.com/72888867/160666154-a77d4c15-0b82-4c19-a543-44ee23b62162.png">
 
 
 ### Describe Linked Lists
