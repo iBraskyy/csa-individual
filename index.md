@@ -15,8 +15,20 @@ Linked Lists are a type of data structure in which each piece of data contains a
 In our code, generic T was used because we did not know which data types would be inputed into the queue, and so it allows us to use the data without specifically defining a data type
    We used stacks in order to implement Reverse Polish Notation to create the calculator object.
    
-   <img width="1440" alt="Screen Shot 2022-03-29 at 9 59 10 AM" src="https://user-images.githubusercontent.com/72888867/160665830-2b6eda60-783b-43a1-b5d1-8ed2eeff98ff.png">
    
+   Here is the first part to my code. This is setting up the transfer between RPN and our final product. We stack which holds our values as we "dissect" RPN. 
+   
+ <img width="449" alt="Screen Shot 2022-03-30 at 9 46 38 AM" src="https://user-images.githubusercontent.com/72888867/160888357-5aa6304a-fe35-498c-92fc-89e99f8aee78.png">
+
+   
+   Here are the calculation steps
+   <img width="415" alt="Screen Shot 2022-03-30 at 9 46 50 AM" src="https://user-images.githubusercontent.com/72888867/160888392-c77446dd-143c-499d-8f27-22bda22db32f.png">
+   
+   
+   Lastly here are the values being popped and also the tostring method which prints our final product as we want it.
+
+   <img width="601" alt="Screen Shot 2022-03-30 at 9 47 07 AM" src="https://user-images.githubusercontent.com/72888867/160888448-beaee9e9-6521-47fb-8030-7df9032a7795.png">
+
    
    Here you can see that I am creating the argument constructor which will be expecting a mathematical expression
    
