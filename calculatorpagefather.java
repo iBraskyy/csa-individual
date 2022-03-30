@@ -164,13 +164,13 @@ public class CaluclatorSamFather {
             // If the token is a number
             if (!isOperator(token)) {
                 //Push number to stack
-                stack.push(token);
+                stack.push(token)
             }
             //else
             else {
                 // Pop the two top entries
-                Double x1 = Double.valueOf((String)stack.pop());
-                Double x0 = Double.valueOf((String)stack.pop());
+                Double x1 = valueOf((String)stack.pop());
+                Double x0 = valueOf((String)stack.pop());
 
                 // Based off of Token operator calculate result
                 Double result;
@@ -201,11 +201,11 @@ public class CaluclatorSamFather {
                 }
 
                 // Push result back onto the stack
-                stack.push(String.valueOf(result));
+                push(String.valueOf(result));
             }
         }
         // Pop final result and set as final result for expression
-        this.result = Double.valueOf((String)stack.pop());
+        result = Double.valueOf((String)stack.pop());
     }
 
     // Print the expression, terms, and result
@@ -272,7 +272,7 @@ public class CaluclatorSamFather {
         String userInput;
         Scanner input = new Scanner(System.in);
 
-        System.out.println("What equation would you like to calculate?");
+        System.out.println("Give the equation you would like to calculate");
 
         userInput = input.next();
         CaluclatorSamFather test = new CaluclatorSamFather(userInput);
