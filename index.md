@@ -11,8 +11,11 @@
 
 ### Calculator
 
-Linked Lists are a type of data structure in which each piece of data contains a reference link to the next piece of data, meaning that the next node can be referenced through the cucrent node
-In our code, generic T was used because we did not know which data types would be inputed into the queue, and so it allows us to use the data without specifically defining a data type
+Linked lists is a data strucutre where each data value has a link that connects to the NEXT piece of data. There are nodes that are connected to the current node, either next or previous. Genertic T was implemented because we weren't able to know which data types would be inserted into the queue, so it gives us the abiity to use data without specifying which type. 
+
+
+
+
    We used stacks in order to implement Reverse Polish Notation to create the calculator object.
    
    
@@ -30,7 +33,7 @@ In our code, generic T was used because we did not know which data types would b
    <img width="601" alt="Screen Shot 2022-03-30 at 9 47 07 AM" src="https://user-images.githubusercontent.com/72888867/160888448-beaee9e9-6521-47fb-8030-7df9032a7795.png">
 
    
-   Here you can see that I am creating the argument constructor which will be expecting a mathematical expression
+ creating the argument constructor which will be expecting a mathematical expression
    
 
 
