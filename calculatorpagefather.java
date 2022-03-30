@@ -1,18 +1,7 @@
-package tt2;
-
-
-
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
 import tt2.Stack;
 import java.util.*;
 
 public class CaluclatorSamFather {
-    // Key instance variables
-    
-    
     
     private final String expression;
     
