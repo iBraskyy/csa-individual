@@ -205,7 +205,7 @@ public class CaluclatorSamFather {
             }
         }
         // Pop final result and set as final result for expression
-        result = Double.valueOf((String)stack.pop());
+        result = Double.valueOf((String)());
     }
 
     // Print the expression, terms, and result
