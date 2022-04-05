@@ -8,6 +8,8 @@
 
 [Week 2](https://github.com/shekark642/M221p2-roopies/issues/41)
 
+[Week 3](https://github.com/shekark642/M221p2-roopies/issues/49)
+
 
 ### Calculator
 
