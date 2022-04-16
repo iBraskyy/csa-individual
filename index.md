@@ -13,6 +13,32 @@
 [Final](https://github.com/shekark642/M221p2-roopies/issues/51)
 
 
+### Sorts
+
+#### Bubble Sort
+
+<img width="495" alt="Screen Shot 2022-04-16 at 4 20 26 PM" src="https://user-images.githubusercontent.com/72888867/163694071-be41e3cb-2ec3-436d-ba3e-62fef3f370a4.png">
+
+The Bubble sort functions by analyzing two adjacent pairs of objects in array.
+
+#### Insertion Sort
+
+<img width="358" alt="Screen Shot 2022-04-16 at 4 28 00 PM" src="https://user-images.githubusercontent.com/72888867/163694194-679c04a3-45f5-4b30-b1fd-682cfcc9c5e8.png">
+
+Insertion sort is much simpler and builds sorted array one item at a time
+
+#### Merge Sort
+
+<img width="586" alt="Screen Shot 2022-04-16 at 4 28 38 PM" src="https://user-images.githubusercontent.com/72888867/163694203-8d3af1a3-bd56-4d5d-9860-e5bb44900bd7.png">
+
+#### Selection Sort
+
+<img width="468" alt="Screen Shot 2022-04-16 at 4 28 58 PM" src="https://user-images.githubusercontent.com/72888867/163694208-55c320cc-7c1b-4df7-9968-8279acde0394.png">
+
+Seleciton sort sorts an array by finding minimum element from the unsorted part and then puts it at the very beginning.
+
+
+
 ### Calculator
 
 Linked lists is a data strucutre where each data value has a link that connects to the NEXT piece of data. There are nodes that are connected to the current node, either next or previous. Genertic T was implemented because we weren't able to know which data types would be inserted into the queue, so it gives us the abiity to use data without specifying which type. 
